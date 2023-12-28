@@ -22,7 +22,7 @@ router.route('/signIn').post(controller.signIn);
 router.route('/verify').post(controller.verifyEmail);
 
 
-router.route('/admin/signup').post(controller.adminSignup);
+router.route('/admin/signUp').post(controller.adminSignup);
 router.route('/admin/signIn').post(controller.adminSignIn);
 
 
